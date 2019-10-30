@@ -1,0 +1,39 @@
+{
+  "name": "zippy",
+  "version": "1.0.0",
+  "description": "A state management library built for JavaScript/TypeScript applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "prepare": "npm run lint && npm run build",
+    "lint": "eslint src/**",
+    "fix-lint": "eslint src/** --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashik5/zippy.git"
+  },
+  "keywords": [
+    "state",
+    "management",
+    "store",
+    "zippy",
+    "reducer",
+    "actions",
+    "side effects",
+    "effects",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Shashi Kumar",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/shashik5/zippy/issues"
+  },
+  "homepage": "https://github.com/shashik5/zippy#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.4"
+  }
+}

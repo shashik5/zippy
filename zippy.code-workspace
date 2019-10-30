@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.preferences.quoteStyle": "single",
+		"typescript.tsdk": "node_modules\\typescript\\lib"
+	},
+	"extensions": {
+		"recommendations": [
+			"kisstkondoros.vscode-codemetrics"
+		]
+	}
+}
