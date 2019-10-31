@@ -10,7 +10,8 @@
 	},
 	"extensions": {
 		"recommendations": [
-			"kisstkondoros.vscode-codemetrics"
+			"kisstkondoros.vscode-codemetrics",
+			"dbaeumer.vscode-eslint"
 		]
 	}
 }
