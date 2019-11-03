@@ -1,13 +1,14 @@
 {
-  "name": "zippy",
+  "name": "@cybercat-io/zippy",
   "version": "1.0.0",
   "description": "A state management library built for JavaScript/TypeScript applications.",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig.json",
-    "prepare": "npm run lint && npm run build",
-    "lint": "eslint src/**",
-    "fix-lint": "eslint src/** --fix"
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "fix-lint": "eslint \"./src/**/*\" --fix",
+    "lint": "eslint \"./src/**/*\"",
+    "test": "mocha -r ts-node/register \"./test/**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -32,9 +33,18 @@
   },
   "homepage": "https://github.com/shashik5/zippy#readme",
   "devDependencies": {
+    "@types/mocha": "^5.2.7",
     "@typescript-eslint/parser": "^2.6.0",
     "eslint": "^6.6.0",
+    "mocha": "^6.2.2",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@cybercat-io/utilities": "^1.0.5"
+  },
+  "mocha": {
+    "recursive": true,
+    "timeout": 2000
   }
 }
