@@ -1,6 +1,6 @@
 {
   "name": "@cybercat-io/zippy",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.2",
   "description": "A state management library built for React applications using hooks and context API.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
