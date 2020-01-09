@@ -15,9 +15,5 @@
         "strict": true,
         "moduleResolution": "node",
         "experimentalDecorators": true
-    },
-    "exclude": [
-        "dist",
-        "node_modules"
-    ]
+    }
 }
