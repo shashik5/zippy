@@ -48,5 +48,9 @@
   "mocha": {
     "recursive": true,
     "timeout": 2000
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
