@@ -35,14 +35,17 @@
         "no-multi-spaces": "error",
         "no-return-assign": "error",
         "no-unmodified-loop-condition": "error",
+        "no-undef": "off",
         "no-unused-expressions": "error",
+        "no-unused-vars": "off",
         "no-useless-concat": "error",
         "no-useless-return": "error",
         "no-shadow": "error",
+        "no-prototype-builtins": "off",
         "no-use-before-define": "error",
         "array-bracket-spacing": [
             "error",
-            "always"
+            "never"
         ],
         "block-spacing": "error",
         "comma-dangle": [
@@ -122,7 +125,7 @@
         "object-shorthand": "error",
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
-        "sort-imports": "error",
+        "sort-imports": "off",
         "template-curly-spacing": "error"
     }
 }
