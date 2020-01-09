@@ -1,7 +1,7 @@
 {
   "name": "@cybercat-io/zippy",
   "version": "1.0.0",
-  "description": "A state management library built for JavaScript/TypeScript applications.",
+  "description": "A state management library built for React applications using hooks and context API.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -34,9 +34,11 @@
   "homepage": "https://github.com/shashik5/zippy#readme",
   "devDependencies": {
     "@types/mocha": "^5.2.7",
+    "@types/react": "^16.9.17",
     "@typescript-eslint/parser": "^2.6.0",
     "eslint": "^6.6.0",
     "mocha": "^6.2.2",
+    "react": "^16.12.0",
     "rimraf": "^3.0.0",
     "typescript": "^3.6.4"
   },
