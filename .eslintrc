@@ -126,6 +126,7 @@
         "object-shorthand": "error",
         "prefer-arrow-callback": "error",
         "prefer-const": "error",
+        "sort-imports": "error",
         "template-curly-spacing": "error"
     }
 }
